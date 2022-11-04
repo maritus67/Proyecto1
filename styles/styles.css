@@ -1,0 +1,317 @@
+/* "Al h1 dale un color rojo" */
+/* SELECTOR DE ETIQUETA */
+/* formato de header */
+* {
+    margin: 0;
+    padding: 0;
+    /*max-width: 1800px;*/
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline ;
+    /* align-items: flex-start; */
+     background-color: #c7ebcc; 
+    /* border-color: blueviolet; */
+    /* border-width: 125px; */
+    /*margin: 0px 8px 8px 8px;*/
+    /*padding-top: 200px;*/
+}
+header {
+    /* border-color: blueviolet; */
+    /* border-width: 225px; */
+    display: flex;
+    flex-direction: column;
+    padding: 1rem; 
+    position:sticky;
+    top:0;  
+    width: 100%; 
+    background-color: #00030e; 
+    /*margin: 0px;*/
+}
+header div {
+    width:100%;
+    display: flex; 
+    justify-content: space-evenly; 
+    padding: 1rem; 
+} 
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: brown;
+    padding: 1rem;
+ }
+ a {
+    color: white;
+    padding: 20px;
+    border-radius: 100%;    
+}
+nav a:hover{
+    background-color: rgb(22, 2, 2)
+}
+table {
+    display: flex;
+    justify-content: space-between;
+}
+div.contenedor {
+    display: flex;
+    justify-content:space-between;
+    border: solid 14px rgb(121, 3, 3);
+}
+p {
+    font-size: 1.5em;
+    color: #0a0a0a;
+    /* background-image: none; */
+    /* background-color: transparent; */
+  }
+ div.foto {
+    display: flex;
+    flex-direction: raw;
+    justify-content:space-between;
+    /* border: solid 14px rgb(121, 3, 3); */
+    /* background-attachment: fixed; */
+    /* background-color: #091f81; */
+  }
+  div.foto1 {
+    background-image: url("/assets/imagenes/aceite.JPG");
+    border: solid 4px rgb(48, 66, 51);
+    color: #b7d40e;
+    background-color: transparent ;
+    /* max-width: 200px; */
+    min-width: 250px;
+    min-height: 250px;
+    /* max-width: 300px; */
+    /* max-height: 300px;   */
+    /* background-repeat: no-repeat; */
+    background-size: cover; 
+  }
+  div.foto2 {
+    background-image: url("/assets/imagenes/cosecha_vines.JPG");
+    border: solid 4px rgb(48, 66, 51);
+    color: #b7d40e;
+    background-color: transparent ;
+    /* max-width: 200px; */
+    min-width: 250px;
+    min-height: 250px;
+    /* max-width: 300px; */
+    /* max-height: 300px;   */
+    /* background-repeat: no-repeat; */
+    background-size: cover; 
+  }
+
+  div.foto3 {
+    background-image: url("/assets/imagenes/finca3.JPG");
+    border: solid 4px rgb(48, 66, 51);
+    color: #b7d40e;
+    background-color: transparent ;
+    /* max-width: 200px; */
+    min-width: 250px;
+    min-height: 250px;
+    /* max-width: 300px; */
+    /* max-height: 300px;   */
+    /* background-repeat: no-repeat; */
+    background-size: cover; 
+  }
+  div.foto4 {
+    background-image: url("/assets/imagenes/LogoyLimones.jpeg");
+    border: solid 4px rgb(48, 66, 51);
+    color: #b7d40e;
+    background-color: transparent ;
+    /* max-width: 200px; */
+    min-width: 250px;
+    min-height: 250px;
+    /* max-width: 300px; */
+    /* max-height: 300px;   */
+    /* background-repeat: no-repeat; */
+    background-size: cover; 
+  }
+ /*-- p.oo {
+    font-size: 9.2rem;
+    font-family: 'Times New Roman', Times, serif;
+ } --*/
+.fotos {
+    width: 1620px ;
+    border-color: black;
+}
+.descri {
+    display: inline-block ;
+    margin-left: 140px;
+    width: 300px;
+}
+img.presen {
+    border: 30px;
+    margin-top: 30px;
+    width: 280px;
+}
+/*--  esto es para la foto de la pagina de inicio --*/
+.presenini {
+    display: flex;
+    background-image: url("/assets/imagenes/inicio.JPG");
+    margin: 3%;
+    width: 588px;
+    min-width: 450px;
+    min-height: 280px;
+    background-size:contain ; 
+    /* border: 3px; */
+    border: solid 14px rgb(121, 3, 3);
+}
+img.fotos {
+    border: 20px;
+    width: 209px;
+}
+ul{
+    list-style: none;
+}
+/* Esto es para hacer que cuando pasa el mouse por arriba del menu lo cambie de color */
+a:hover {
+color: chartreuse;
+}
+/* Al h2 QUE TENGA CLASE AZUL dale un color azul */
+/* SELECTOR DE ETIQUETA Y CLASE */
+h1 {
+     color: #f2f3f6; 
+     display: flex;
+     /* font-family:  'Pacífico', cursiva;  */
+     font-size: 3rem ; 
+     margin: 10px; 
+     font-weight: bold ; 
+} 
+h2 {
+    color: #00030e;
+    background-color: burlywood;
+    padding: 10px;
+} 
+section.produ {
+    color: #f2f3f6; 
+    display: flex;
+}
+h1.h1_oscuro {
+    color: #0d064b;
+}
+h2.produ {
+    background-color: rgb(202, 168, 136);
+    color: black;
+    margin: 5px;
+    border-radius: 5%;
+}
+h2.clas_packing {
+    background-color: #02061b;
+    color:  #02061b   ;
+    padding: 10px;
+}
+/* A CUALQUIER ELEMENTO CON CLASE AZUL dale un color azul */
+/* SELECTOR DE CLASE */
+h3 {
+    color: #0d064b; 
+}
+h4 {
+    color: #00030e;
+    background-color: burlywood;
+    margin: 10px;
+    font-weight: bold ;   
+    font-size: 2rem;     
+}
+div.fondoverde {
+    background-color: lightgreen;
+    padding: 20px;
+    margin-bottom: 300px;
+}
+/*  CSS del formulario */
+form{
+    background-color: white;
+    border-radius: 3px;
+    color: #999;
+    padding: 10px;
+    width: 400px;
+}
+label{
+    font-size: 15px;
+    color: #091f81;
+}
+.field{
+    border: solid 2px #ccc;
+    padding: 10px;
+    width: 280px;
+    background-color: #7ed1f1;
+    font-size: 12px;
+    border-radius: 5px;
+}
+textarea.textmensa {
+    color: #091f81;
+    font-size: 20px;
+    background-color: #7ed1f1;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-radius: 5px;
+}
+.rbchb{
+    background-color: rgb(138, 138, 120);
+    font-size: 15px;
+    color: #0d064b;
+    margin: 5px 0 20px 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+.boton {
+   width: 200px;  
+   background-color: #7ed1f1; 
+   padding: 15px  ; 
+   margin-top:  10px;
+   font-size : 15px;
+   border-radius: 15px;
+}
+.titulo2 {
+    font-size: 30px;
+    background-color: darksalmon;
+    border: 10px solid;
+    margin: 10px;
+}
+.uno {
+    background-color: aqua;
+
+}
+.dos {
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.cuatro {
+    /* background-color: rgb(23, 74, 122); */
+    display: flex;
+}
+.cinco {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45vw;
+    border-color: aqua;
+    padding: 10px;
+}
+.seis {
+    width: 45vw;
+    padding: 10px;
+}
+.image {
+    padding: 20px ;
+    border: 10px solid green;
+    margin: 10px;
+}
+.imagarticulo {
+    width: 15vw;
+    background-color: beige;
+}
+.volverarriba {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 325px;
+    background-color: rgb(22, 22, 1);
+}
+/*--  esto es lo puse para ver como funciona el respondi.. de achicar la pantalla y cambia color de fondo --*/
+/* MEDIAQUERIES */
+@media (max-width:724px) {
+  header {
+        background-color: rgb(192, 192, 107)   ; 
+  }
+}

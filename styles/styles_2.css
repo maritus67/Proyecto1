@@ -1,0 +1,62 @@
+/* "Al h1 dale un color rojo" */
+/* SELECTOR DE ETIQUETA */
+/* formato de header */
+* {
+    margin: 440;
+    padding: 0;
+    max-width: 1800px;
+}
+
+.titulo2 {
+    font-size: 30px;
+    background-color: darksalmon;
+}
+.uno {
+    background-color: aqua;
+
+}
+.dos {
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    
+}
+
+.tres {
+    /* background-color: blueviolet; */
+
+}
+.cuatro {
+    /* background-color: rgb(23, 74, 122); */
+    display: flex;
+}
+.cinco {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    border-color: aqua;
+    padding: 10px;
+}
+
+.seis {
+    width: 35vw;
+    padding: 10px;
+}
+
+.image {
+    padding: 20px ;
+    border: 10px solid green;
+    margin: 10px;
+}
+
+.imagarticulo {
+    width: 15vw;
+    background-color: beige;
+}
+.volverarriba {
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 325px;
+    background-color: yellow;
+}
